@@ -12,7 +12,5 @@ arch:
   - i386
 options: {}
 schema: {}
-image: python:{arch}-alpine
 ports:
   5000/tcp: 5000
-map_ports: true
