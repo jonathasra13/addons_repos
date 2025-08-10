@@ -31,4 +31,4 @@ COPY . /app
 RUN chmod a+x /app/run.sh
 
 # Comando de inicialização
-# CMD [ "/app/run.sh" ]
+CMD [ "/app/run.sh" ]
